@@ -14,13 +14,13 @@
 		6FCF9759194CF921002FE14D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCF9758194CF921002FE14D /* main.m */; };
 		6FCF975D194CF921002FE14D /* DSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCF975C194CF921002FE14D /* DSAppDelegate.m */; };
 		6FCF9760194CF921002FE14D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCF975E194CF921002FE14D /* Main.storyboard */; };
-		6FCF9763194CF921002FE14D /* DSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCF9762194CF921002FE14D /* DSViewController.m */; };
 		6FCF9765194CF921002FE14D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCF9764194CF921002FE14D /* Images.xcassets */; };
 		6FCF976C194CF921002FE14D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCF976B194CF921002FE14D /* XCTest.framework */; };
 		6FCF976D194CF921002FE14D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCF974C194CF921002FE14D /* Foundation.framework */; };
 		6FCF976E194CF921002FE14D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCF9750194CF921002FE14D /* UIKit.framework */; };
 		6FCF9776194CF921002FE14D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FCF9774194CF921002FE14D /* InfoPlist.strings */; };
 		6FCF9778194CF921002FE14D /* UITableView_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCF9777194CF921002FE14D /* UITableView_ChallengeTests.m */; };
+		6FCF9783194D0141002FE14D /* DSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCF9782194D0141002FE14D /* DSTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		6FCF975B194CF921002FE14D /* DSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSAppDelegate.h; sourceTree = "<group>"; };
 		6FCF975C194CF921002FE14D /* DSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAppDelegate.m; sourceTree = "<group>"; };
 		6FCF975F194CF921002FE14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6FCF9761194CF921002FE14D /* DSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSViewController.h; sourceTree = "<group>"; };
-		6FCF9762194CF921002FE14D /* DSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSViewController.m; sourceTree = "<group>"; };
 		6FCF9764194CF921002FE14D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6FCF976A194CF921002FE14D /* UITableView ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCF976B194CF921002FE14D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6FCF9773194CF921002FE14D /* UITableView ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableView ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		6FCF9775194CF921002FE14D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6FCF9777194CF921002FE14D /* UITableView_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableView_ChallengeTests.m; sourceTree = "<group>"; };
+		6FCF9781194D0141002FE14D /* DSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSTableViewController.h; path = ../DSTableViewController.h; sourceTree = "<group>"; };
+		6FCF9782194D0141002FE14D /* DSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSTableViewController.m; path = ../DSTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				6FCF975B194CF921002FE14D /* DSAppDelegate.h */,
 				6FCF975C194CF921002FE14D /* DSAppDelegate.m */,
 				6FCF975E194CF921002FE14D /* Main.storyboard */,
-				6FCF9761194CF921002FE14D /* DSViewController.h */,
-				6FCF9762194CF921002FE14D /* DSViewController.m */,
+				6FCF9781194D0141002FE14D /* DSTableViewController.h */,
+				6FCF9782194D0141002FE14D /* DSTableViewController.m */,
 				6FCF9764194CF921002FE14D /* Images.xcassets */,
 				6FCF9753194CF921002FE14D /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FCF9759194CF921002FE14D /* main.m in Sources */,
-				6FCF9763194CF921002FE14D /* DSViewController.m in Sources */,
+				6FCF9783194D0141002FE14D /* DSTableViewController.m in Sources */,
 				6FCF975D194CF921002FE14D /* DSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  DSViewController.h
+//  DSTableViewController.h
 //  UITableView Challenge
 //
 //  Created by Diane Salter on 6/14/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DSViewController : UIViewController
+@interface DSTableViewController : UITableViewController
 
 @end
